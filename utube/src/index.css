@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+code {
+  font-family: 'source-code-pro, Menlo, Monaco, Consolas', 'Courier New',
+    monospace;
+}
+
+body {
+  background: #312d2d;
+}
+
+@media (max-width: 500px) {
+  #SEARCHBAR {
+    width: 9.6rem;
+  }
+}
+
+@media (min-width: 501px) {
+  #SEARCHBAR {
+    width: 18rem;
+  }
+}
+
+#SEARCHBAR {
+  padding-left: 0.4rem;
+  position: relative;
+  top: -4px;
+}
+
+.sideBarBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  padding: 0.6rem;
+  color: #fff;
+
+
+
+}
+
+.ChannnelName {
+  color: #b0b0b0;
+  font-size: 0.84rem;
+  line-height: 1.2rem;
+}
+
+.ChannnelName:hover {
+  color: rgb(251, 251, 251);
+}
