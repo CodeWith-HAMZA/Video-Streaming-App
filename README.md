@@ -5,8 +5,8 @@ Welcome to my YouTube clone project! This application is built using React and J
 React: A JavaScript library for building user interfaces.
 Material-UI (Mui): A popular React UI framework for creating stylish and responsive components.
 RapidAPI: A platform used for integrating APIs, including the YouTube API for fetching data.
-Features:
 
+# Features:
 Video Playback: Enjoy seamless video playback with a user-friendly interface.
 Channel Page: Explore a variety of channels and their unique content.
 Video Details: Get comprehensive information about each video, including views and comments.
